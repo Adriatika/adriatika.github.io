@@ -1,0 +1,19 @@
+.px1{
+	background-image:linear-gradient(to top, rgba(255,255,255,0.1), rgba(255,255,255,0.7) ), url(../img/px1.jpg);
+	background-attachment: fixed;
+	background-position: 50% 50%, 125px 110px;
+}
+.documents, .test, .search,.knowledge, .footer{
+	padding:2rem 0 2rem 3rem;
+}
+	.documents__title, .test__title, .search__title, .knowledge__title{
+		padding:2rem 0 2rem 0;
+	}
+	.test__title, .search__title, .knowledge__title{
+		text-align: center;
+	}
+.documents__item{
+	padding:0.5rem 0;
+	font-size: 1.2em;
+	list-style: none;
+}
