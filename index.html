@@ -16,15 +16,15 @@
             <span class="navbar-toggler-icon"></span>
         </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav mr-auto menu">
             <li class="nav-item">
-                <a class="nav-link" href="#">Как проверить компанию?<span class="sr-only">(current)</span></a>
+                <a class="nav-link menu__item" href="#someLabel">Как проверить компанию?<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Какие данные включены в отчёт?</a>
+                <a class="nav-link menu__item" href="#someLabel">Какие данные включены в отчёт?</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Цена</a>
+                <a class="nav-link menu__item" href="#someLabel">Цена</a>
             </li>
         </ul>
         </div>
@@ -47,8 +47,8 @@
           <li class="documents__item">Оценка кредитоспособности</li>
           <li class="documents__item">Имущество в залоге и в лизинге</li>
         </ul>
-        <p >все это можно получить всего за 500 рублей!</p>
-        <a href="#" class="btn">ПРОВЕРИТЬ</a>
+        <p class="documents__par">все это можно получить всего за 500 рублей!</p>
+        <a href="#someLabel" class="documents__btn">ПРОВЕРИТЬ</a>
     </section>
   </div>
   <div class="container-fluid bg-light">
@@ -87,15 +87,15 @@
       <span class="search__title   text-center">
         Введите ИНН контрагента
       </span>
-      <form class="input-group">
+      <form class="input-group search__form">
         <input type="text" class="search__input" placeholder="Введите ИНН / ОГРН / ФИО / Название компании" >
         <div class="input-group-append">
-          <button class="btn">Найти</button>
+          <button class="btn search_btn">Найти</button>
         </div>
       </form>
     </section>
   </div>
-  <div class="container-fluid bg-light" >
+  <div class="container-fluid bg-light know-wrapper" >
     <section class="container knowledge">
       <h2 class="title knowledge__title" >Мы знаем всё</h2>
       <div class="d-flex">
@@ -103,7 +103,7 @@
             <h4 class="nerd__title">
               Из всех источников
             </h4>
-              <ul>
+              <ul class="nerd_list">
                 <li class="nerd__item">Налоговая служба</li>
                 <li class="nerd__item">Служба статистики</li>
                 <li class="nerd__item">Центральный банк</li>
@@ -116,7 +116,7 @@
             <h4 class="nerd__title">
               Самые полные сведения о всех компаниях
             </h4>
-              <ul>
+              <ul class="nerd_list">
                 <li class="nerd__item">Телефоны, явки, пароли</li>
                 <li class="nerd__item">Участие в торгах на Ebay</li>
                 <li class="nerd__item">Свежие выписка из ЕГРЮЛ, ЕГРИП и РОССТАТа</li>
@@ -130,12 +130,13 @@
     </section>
   </div>
   <div class="container-fluid bg-light">
-    <footer class="container footer">
-      <span class="footer__copyright">(с) ООО «РАНФИН» Тензор-Сбис 2018</span>
+    <footer class="container footer"><span class="footer__copyright" id="someLabel">&#169;ООО «РАНФИН» Тензор-Сбис 2018</span>
     </footer>
   </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/SmoothScroll.js"></script>
   </body>
 </html>
