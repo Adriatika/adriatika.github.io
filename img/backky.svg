@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="550" height="200" viewBox="0 0">
+	<polygon points="0,0 450,0 500,100 450,200 0,200" class="part1"></polygon>
+	<rect class="bg-rect" ></rect>
+	<style>
+		.bg-rect{
+		fill:rgba(249,249,249,1);
+		}
+		.part1{
+		fill:rgba(212,229,238,1);
+		}
+	</style>
+</svg>
