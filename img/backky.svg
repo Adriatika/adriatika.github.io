@@ -6,7 +6,7 @@
 		fill:rgba(249,249,249,1);
 		}
 		.part1{
-		fill:rgba(212,229,238,1);
+		fill:rgba(145,220,90,0.4);
 		}
 	</style>
 </svg>
